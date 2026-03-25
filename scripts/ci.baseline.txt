@@ -679,6 +679,7 @@ tinycthread:x64-android=fail
 torch-th:arm64-linux=fail
 torch-th:arm64-windows-static-md=fail
 torch-th:arm64-windows=fail
+torch-th:x64-windows-static-md=fail # torch-th only supports dynamic library linkage
 torch-th:x64-windows-static=fail
 usd:x64-windows-static=skip # Proper support for a true static usd build is left as a future port improvement. It probably require fiddling with its monolithic mode.
 v8:x64-android=fail # the version of v8 we have in the repo doesn't support VS2022
